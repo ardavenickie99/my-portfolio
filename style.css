@@ -1,27 +1,4 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
 
-header {
-  background: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-section {
-  padding: 2rem;
-  border-bottom: 1px solid #ddd;
-}
 
 /* make it responsive.. */
 /* Responsive Design */
@@ -51,4 +28,41 @@ section {
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* style.css */
+body {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark-mode a {
+  color: #91cfff;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode .navbar,
+.dark-mode footer {
+  background-color: #000 !important;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #222;
+  color: white;
+  border-color: #444;
 }
